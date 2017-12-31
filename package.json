@@ -1,0 +1,28 @@
+{
+  "name": "@jmblog/prettier-config",
+  "version": "1.0.0",
+  "description": "My own prettier configuration",
+  "main": "index.js",
+  "scripts": {
+    "fmt": "prettier --config prettier.config.js --write index.js",
+    "preversion": "npm run fmt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmblog/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jmblog/prettier-config/issues"
+  },
+  "homepage": "https://github.com/jmblog/prettier-config#readme",
+  "keywords": [
+    "perttier",
+    "prettier-config"
+  ],
+  "author": "Yoshihide Jimbo",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.9.2"
+  },
+  "dependencies": {}
+}
