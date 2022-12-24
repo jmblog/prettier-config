@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-$ npm install jmblog/prettier-config --save-dev
+npm install jmblog/prettier-config --save-dev
 ```
 
 ## Usage
